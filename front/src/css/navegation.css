@@ -1,0 +1,109 @@
+.promotion {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.promotion a {
+    color: #ccc;
+} 
+
+.promotion a:hover {
+    transition: 0.5s;
+    opacity: 0.5;
+}
+
+.nameBrand a, h1 {
+    text-decoration: none;
+    text-align: center;
+    padding: 40px 0 20px;
+    color: #000;
+    font-size: 3rem;
+}
+
+.menu-btn {
+    text-align: center;
+    font-size: 1.8rem;
+    cursor: pointer;
+    display: none;
+}
+
+.menu-btn:hover {
+    transition: 0.5s;
+    opacity: 0.5;
+}
+
+nav {
+    background-color: #fff;
+    box-shadow: 0 10px 10px #00000052;
+    padding: 20px 0;
+}
+
+.nav-main {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: #212121;
+}
+
+.nav-menu li a:hover {
+    transition: 0.5s;
+    opacity: 0.5;
+}
+
+@media (max-width: 1200px) {
+    .promotion {
+        font-size: 0.8rem;
+        padding: 10px 20px;
+    }
+
+    .nameBrand a, h1 {
+        font-size: 2rem;
+        padding: 20px 0;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    nav {
+        padding: 10px 0;
+    }
+
+    .nav-main {
+        text-align: center;
+        transition: 0.5s;
+        display: none;
+    }
+
+    .nav-main.show {
+        display: block;
+    }
+
+    .nav-menu {
+        transition: 0.5s;
+        display: block;
+        border-top: 2px solid #00000052;
+        padding-top: 20px;
+    }
+
+    .nav-menu li {
+        margin-bottom: 20px;
+    }
+
+    .nav-menu li a {
+        font-size: 0.95rem;
+    }
+}
