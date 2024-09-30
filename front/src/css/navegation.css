@@ -63,7 +63,7 @@ nav {
     opacity: 0.5;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1280px) {
     .promotion {
         font-size: 0.8rem;
         padding: 10px 20px;
@@ -105,5 +105,17 @@ nav {
 
     .nav-menu li a {
         font-size: 0.95rem;
+    }
+}
+
+@media (height: 800px) {
+    .nameBrand h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (height: 600px) {
+    .nameBrand h1 {
+        font-size: 3rem;
     }
 }
