@@ -12,6 +12,10 @@
     color: #fff;
 }
 
+.footer-text h3 {
+    font-size: 1.2rem;
+}
+
 .footer-text p {
     margin-left: 10px;
 }
@@ -51,6 +55,9 @@
 }
 
 @media (max-width: 1280px) {
+    .footer-text h3 {
+        font-size: 1rem;
+    }
     .footer-container {
         display: block;
         font-size: 0.8rem;
@@ -62,7 +69,6 @@
     }
 
     .footer-links {
-        
         margin: 20px 0;
     }
 }
