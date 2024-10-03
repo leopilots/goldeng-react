@@ -1,6 +1,6 @@
 # Golden G React
 
-Este es el repositorio para el desarrollo del sitio web de **Golden G**, una tienda en línea de comercio electrónico enfocada en la venta de productos usando **React**. Este proyecto incluye tanto la parte frontal (frontend) desarrollada en React como el servidor backend con Node.js y Express, utilizando una base de datos MySQL.
+Este es el repositorio para el desarrollo de la aplicación web de **Golden G**, una tienda en línea de comercio electrónico enfocada en la venta de productos usando **React**. Este proyecto incluye tanto la parte frontal (frontend) desarrollada en React como el servidor backend con Node.js y Express, utilizando una base de datos MySQL.
 
 ## Tecnologías
 
@@ -17,6 +17,8 @@ Este es el repositorio para el desarrollo del sitio web de **Golden G**, una tie
 - **Express**: ^4.21.0
 - **MySQL2**: ^3.11.3
 - **Sequelize**: ^6.37.3
+- **bcrypt**: ^5.1.1
+- **jsonwebtoken**: ^9.0.2
 
 ## Requisitos
 
@@ -52,7 +54,7 @@ cd goldeng-react/node
 
 ### Instalar dependencias del backend
 ```cmd
-npm i express cors mysql2 sequelize 
+npm i express cors mysql2 sequelize bcrypt jsonwebtoken
 ```
 
 # Ejecución
