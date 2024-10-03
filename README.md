@@ -28,27 +28,29 @@ El backend está desarrollado usando **Node.js** con **Express** y **Sequelize**
 
 ## Instalación
 
-### Frontend
+## Frontend
 
-# Clonar el repositorio
+### Clonar el repositorio
+```cmd
 git clone https://github.com/leopilots/goldeng-react.git
+```
 
-# Navegar al directorio del frontend
+### Navegar al directorio del frontend
 ```cmd
 cd goldeng-react/front
 ```
 
-# Instalar dependencias del frontend
+### Instalar dependencias del frontend
 ```cmd
 npm install axios react-dom react-router-dom
 ```
 
-# Navegar al directorio del backend
+### Navegar al directorio del backend
 ```cmd
 cd goldeng-react/node
 ```
 
-# Instalar dependencias del backend
+### Instalar dependencias del backend
 ```cmd
 npm i express cors mysql2 sequelize 
 ```
