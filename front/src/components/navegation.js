@@ -1,4 +1,6 @@
 import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
+
 import '../css/Navegation.css';
 
 export default function Navegation() {
@@ -22,10 +24,10 @@ export default function Navegation() {
     return (
         <div>
             <div className='promotion'>
-                <p>¡Disfruta de envío gratis en tu primera compra! <a href="#">Compra ahora</a>.</p>
+                <p>¡Disfruta de envío gratis en tu primera compra! <Link to="/promotion">Compra ahora</Link>.</p>
             </div>
             <div className='nameBrand'>
-                <a href='#'><h1>Golden G</h1></a>
+                <Link to="/"><h1>Golden G</h1></Link>
             </div>
             <nav>
                 <div className='menu-btn'>
@@ -33,13 +35,13 @@ export default function Navegation() {
                 </div>
                 <div className='nav-main'>
                     <ul className='nav-menu'>
-                        <li><a href='#'>Hombre</a></li>
-                        <li><a href='#'>Mujer</a></li>
-                        <li><a href='#'>Más Vendidos</a></li>
+                        <li><Link to="/men">Hombre</Link></li>
+                        <li><Link to="/woman">Mujer</Link></li>
+                        <li><Link to="/best-selling">Más Vendido</Link></li>
                     </ul>
                     <ul className='nav-menu'>
-                        <li><a href='#'>Mi Cuenta</a></li>
-                        <li><a href='#'>Mi Cesta</a></li>
+                        <li><Link to="/my-account">Mi Cuenta</Link></li>
+                        <li><Link to="/my-bag">Mi Cesta</Link></li>
                     </ul>
                 </div>
             </nav>

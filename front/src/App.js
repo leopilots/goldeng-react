@@ -13,21 +13,20 @@ import './App.css';
 
 function App() {
     return (
-        <div className="App">
-            <Navegation />
-            <Header />
-            <main>
-                <TopProduct />{/*
-                <BrowserRouter>
+        <BrowserRouter>
+            <div className="App">
+                <Navegation />
+                <main>
                     <Routes>
-                        <Route path='/' element={ <CompShowUser />} />
+                        <Route path="/" element={<><Header /><TopProduct /></>} />
+                        <Route path='/users' element={ <CompShowUser /> } />
                         <Route path='/create' element={ <CompCreateUser />} />
                         <Route path='/edit/:id' element={ <CompEditUser />} />
                     </Routes>
-                </BrowserRouter> */}
-            </main>
-            <Footer />
-        </div>
+                </main>
+                <Footer />
+            </div>
+        </BrowserRouter>
     );
 }
 
