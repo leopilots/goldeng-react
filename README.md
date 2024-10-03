@@ -45,17 +45,17 @@ cd goldeng-react/node
 # Instalar dependencias del backend
 npm install
 
-### Ejecución
+# Ejecución
 ## Frontend
-# Para iniciar el servidor de desarrollo del frontend:
+### Para iniciar el servidor de desarrollo del frontend:
 npm start
 
-## Backend
-# Para ejecutar el backend:
+# Backend
+## Para ejecutar el backend:
 nodemon app
 
 ## Descripción del Proyecto
-# Golden G es un sitio web de e-commerce que permite a los usuarios navegar por un catálogo de productos, agregar artículos a un carrito de compras y realizar pedidos. Este repositorio se divide en dos partes:
+Golden G es un sitio web de e-commerce que permite a los usuarios navegar por un catálogo de productos, agregar artículos a un carrito de compras y realizar pedidos. Este repositorio se divide en dos partes:
 
 - Frontend: La parte de cliente del sitio web, desarrollada usando React, donde los usuarios pueden interactuar con el catálogo y el carrito de compras.
 - Backend: El servidor que maneja las operaciones relacionadas con la base de datos y la lógica del negocio.
