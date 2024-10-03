@@ -100,11 +100,13 @@ nav {
     }
 
     .nav-menu li {
+        margin-right: 25px;
         margin-bottom: 20px;
     }
 
     .nav-menu li a {
         font-size: 0.95rem;
+        margin: 0;
     }
 }
 
