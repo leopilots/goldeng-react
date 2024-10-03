@@ -21,7 +21,7 @@ Este es el repositorio para el desarrollo del sitio web de **Golden G**, una tie
 ## Requisitos
 
 ### Frontend (React)
-Para ejecutar el frontend del proyecto, necesitas tener **Node.js** y **npm** instalados en tu sistema. Una vez configurado el entorno, sigue los pasos a continuación.
+Para ejecutar el frontend del proyecto, necesitas tener **Node.js**, **npm** y **nodemon** instalados en tu sistema. Una vez configurado el entorno, sigue los pasos a continuación.
 
 ### Backend (Node.js)
 El backend está desarrollado usando **Node.js** con **Express** y **Sequelize** para la conexión a una base de datos MySQL.
