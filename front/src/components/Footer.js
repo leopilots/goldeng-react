@@ -7,8 +7,7 @@ const Footer = () => {
     <footer>
         <div className='footer-container'>
             <div className='footer-text'>
-                <h3>© 2024 Golden G</h3>
-                <p>| Todos los derechos reservados.</p>
+                <h3>© 2024 Golden G | Todos los derechos reservados.</h3>
             </div>
             <div className='footer-links'>
                 <ul>

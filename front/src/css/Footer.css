@@ -57,17 +57,26 @@
 @media (max-width: 1280px) {
     .footer-text h3 {
         font-size: 1rem;
+        margin-left: 30px;
     }
+    
     .footer-container {
         display: block;
         font-size: 0.8rem;
     }
 
     .footer-text {
-        text-align: center;
-        margin: 20px 10px;
+        margin: 20px 0;
+    }
+    
+    .footer-links {
+        margin: 0;
     }
 
+    .footer-links li a {
+        margin: 0;
+    }
+    
     .footer-links {
         margin: 20px 0;
     }
