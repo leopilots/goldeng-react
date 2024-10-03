@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Navegation from './components/navegation.js';
 import Header from './components/Header.js';
+import TopProduct from './components/TopProduct.js';
 import Footer from './components/Footer.js';
 
 import CompShowUser from './components/user/ShowUsers.js';
@@ -15,15 +16,16 @@ function App() {
         <div className="App">
             <Navegation />
             <Header />
-            
-            <BrowserRouter>
-                <Routes>
-                    <Route path='/' element={ <CompShowUser />} />
-                    <Route path='/create' element={ <CompCreateUser />} />
-                    <Route path='/edit/:id' element={ <CompEditUser />} />
-                </Routes>
-            </BrowserRouter>
-
+            <main>
+                <TopProduct />{/*
+                <BrowserRouter>
+                    <Routes>
+                        <Route path='/' element={ <CompShowUser />} />
+                        <Route path='/create' element={ <CompCreateUser />} />
+                        <Route path='/edit/:id' element={ <CompEditUser />} />
+                    </Routes>
+                </BrowserRouter> */}
+            </main>
             <Footer />
         </div>
     );

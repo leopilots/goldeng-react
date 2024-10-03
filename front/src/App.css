@@ -12,3 +12,8 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
 }
+
+main {
+    width: 80%;
+    margin: auto;
+}
