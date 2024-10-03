@@ -1,34 +1,31 @@
 .header-container {
-    height: 90vh;
-    width: 80%; 
+    width: 100%; /*80%*/
     margin: auto;
     overflow: hidden;
-    display: flex;
-    justify-content: space-between;
 }
 
-.header-left {
-    width: 30%;
-    height: 100%;
+.header-text {
+    width: 100%;
     padding: 15px 0;
+    margin-bottom: 40px;
 }
 
-.left-content {
+.text-content {
     text-align: center;
-    width: 90%;
+    width: 65%;
     margin: auto;
 }
 
-.left-content img {
-    width: 100%;
+.text-content img {
+    width: 70%;
 }
 
-.left-content p {
+.text-content p {
     padding: 20px 0 20px;
     text-align: justify;
 }
 
-.left-content a {
+.text-content a {
     text-decoration: none;
     background-color: #212121;
     padding: 10px 20px;
@@ -36,21 +33,20 @@
     border: 1px solid #212121;
 }
 
-.left-content a:hover {
+.text-content a:hover {
     transition: 0.8s;
     background-color: #fff;
     color: #212121;
 }
 
-.header-right {
-    width: 70%;
-    height: 100%;
+.header-img {
+    width: 100%;
     padding: 15px 0;
     display: flex;
 }
 
-.header-right img {
-    height: 100%;
+.header-img img {
+    width: 50%;
     border-left: 2px solid #fff;
     border-right: 2px solid #fff;
 }
@@ -62,65 +58,55 @@
         display: block;
     }
     
-    .header-left {
+    .header-text {
         width: 100%;
         padding: 20px 0;
         margin-top: 40px;
     }
     
-    .left-content {
+    .text-content {
         width: 80%;
     }
     
-    .left-content img {
+    .text-content img {
         width: 100%;
     }
     
-    .left-content p {
+    .text-content p {
         font-size: 0.8rem;
         margin-bottom: 20px;
     }
 
-    .left-content a {
+    .text-content a {
         font-size: 0.8rem;
         padding: 10px 15px;
-    }
-
-    .header-right {
-        width: 100%;
-        margin-top: 40px;
-    }
-    
-    .header-right img {
-        width: 50%;
-        border: 2px solid #fff;
     }
 }
 
 @media (height: 800px) {
-    .left-content img {
+    .text-content img {
         width: 80%;
     }
 
-    .left-content p {
+    .text-content p {
         font-size: 1rem;
     }
 
-    .left-content a {
+    .text-content a {
         font-size: 1rem;
     }
 }
 
 @media (height: 600px) {
-    .left-content img {
+    .text-content img {
         width: 80%;
     }
 
-    .left-content p {
+    .text-content p {
         font-size: 1rem;
     }
 
-    .left-content a {
+    .text-content a {
         font-size: 1rem;
     }
 }
